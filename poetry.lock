@@ -1,0 +1,45 @@
+[[package]]
+category = "main"
+description = "Composable command line interface toolkit"
+name = "click"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "7.0"
+
+[[package]]
+category = "main"
+description = "Cross-platform colored terminal text."
+marker = "sys_platform == \"win32\""
+name = "colorama"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "0.4.0"
+
+[[package]]
+category = "main"
+description = "Robust and effective logging for Python 2 and 3"
+name = "logzero"
+optional = false
+python-versions = "*"
+version = "1.5.0"
+
+[package.dependencies]
+colorama = "*"
+
+[[package]]
+category = "main"
+description = "Python Serial Port Extension"
+name = "pyserial"
+optional = false
+python-versions = "*"
+version = "3.4"
+
+[metadata]
+content-hash = "ff40178ad6e61e82d6da8c9c7b2b30c1a9d916bd0d4521358ee202f4882e2b63"
+python-versions = "^3.6"
+
+[metadata.hashes]
+click = ["2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13", "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"]
+colorama = ["a3d89af5db9e9806a779a50296b5fdb466e281147c2c235e8225ecc6dbf7bbf3", "c9b54bebe91a6a803e0772c8561d53f2926bfeb17cd141fbabcb08424086595c"]
+logzero = ["34fa1e2e436dfa9f37e5ff8750e932bafe0c5abbb42e1f669e4cf5ce1f179142", "818072e4fcb53a3f6fb4114a92f920e1135fe6f47bffd9dc2b6c4d10eedacf27"]
+pyserial = ["6e2d401fdee0eab996cf734e67773a0143b932772ca8b42451440cfed942c627", "e0770fadba80c31013896c7e6ef703f72e7834965954a78e71a3049488d4d7d8"]
